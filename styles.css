@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Orbitron', sans-serif;
+  background: radial-gradient(circle at top, #000015, #000);
+  color: #00fff7;
+  padding: 20px;
+  text-align: center;
+}
+.hero {
+  padding: 60px 20px;
+}
+.hero h1 {
+  font-size: 3rem;
+  text-shadow: 0 0 15px #0ff;
+}
+.hero p {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #aaf;
+}
+.buttons {
+  margin-top: 30px;
+}
+.main-btn {
+  background: #00fff7;
+  color: #000;
+  padding: 12px 24px;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+.main-btn:hover {
+  background: #00bfa5;
+}
+.alt {
+  background: transparent;
+  border: 2px solid #00fff7;
+  color: #00fff7;
+}
+.alt:hover {
+  background: #00fff7;
+  color: #000;
+}
+.ai-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px 0;
+}
+.ai-card {
+  background: rgba(0, 0, 30, 0.7);
+  border: 1px solid #00fff7;
+  padding: 30px;
+  border-radius: 12px;
+  width: 280px;
+  box-shadow: 0 0 20px #0ff3;
+}
+.ai-card h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+.ai-card p {
+  font-size: 0.95rem;
+  margin-bottom: 20px;
+}
+.ai-card button {
+  padding: 10px 20px;
+  background: #00fff7;
+  border: none;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.ai-card button:hover {
+  background: #00bfa5;
+}
+footer {
+  margin-top: 40px;
+  font-size: 0.85rem;
+  color: #88f;
+}
+
