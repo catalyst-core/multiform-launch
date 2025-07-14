@@ -1,58 +1,37 @@
-
 body {
   margin: 0;
   font-family: 'Orbitron', sans-serif;
-  background: radial-gradient(circle at top, #0f0f0f, #000000);
-  color: #ffffff;
-}
-header {
-  padding: 80px 20px 40px;
+  background: radial-gradient(circle at center, #000010, #000);
+  color: #0ff;
   text-align: center;
-  background: linear-gradient(135deg, #121212, #1c1c1c);
 }
-h1 {
-  font-size: 3.2em;
-  color: #00fff7;
-}
-.subtitle {
-  color: #aaa;
-  font-size: 1.2em;
-}
-.cta {
-  margin-top: 30px;
-}
-.cta a {
-  margin: 0 15px;
-  padding: 12px 24px;
-  background: #00fff7;
-  color: #000;
-  text-decoration: none;
-  border-radius: 5px;
-}
-.voice-section {
-  display: flex;
-  justify-content: space-around;
+.hero {
   padding: 60px 20px;
-  background: #111;
 }
-.voice-card {
-  background: #1a1a1a;
-  border-radius: 12px;
+.cta-button {
+  background-color: #00ffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+.modules {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px 20px;
+}
+.module {
+  border: 1px solid #0ff;
   padding: 20px;
-  text-align: center;
-  width: 30%;
-}
-.voice-card img {
-  width: 100%;
-  max-width: 300px;
-  border-radius: 8px;
-}
-.voice-card h2 {
-  color: #00fff7;
+  background: rgba(0, 0, 0, 0.6);
+  width: 300px;
+  border-radius: 10px;
 }
 footer {
   padding: 20px;
-  text-align: center;
-  color: #777;
-  background: #0a0a0a;
+  font-size: 14px;
+  opacity: 0.8;
 }
