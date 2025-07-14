@@ -1,0 +1,29 @@
+
+body {
+    background: #000;
+    color: #0ff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, footer {
+    padding: 2rem;
+    background: #111;
+    border-bottom: 1px solid #0ff;
+}
+
+.module {
+    margin: 3rem auto;
+    padding: 1.5rem;
+    background: rgba(0, 255, 255, 0.05);
+    border: 1px solid #0ff;
+    width: 80%;
+    max-width: 600px;
+}
+
+.module img {
+    max-width: 120px;
+    margin-bottom: 1rem;
+}
