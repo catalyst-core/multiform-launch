@@ -1,37 +1,46 @@
+
 body {
-  margin: 0;
-  font-family: 'Orbitron', sans-serif;
-  background: radial-gradient(circle at center, #000010, #000);
-  color: #0ff;
-  text-align: center;
+    background-color: #000;
+    color: #00ffff;
+    font-family: 'Orbitron', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
-.hero {
-  padding: 60px 20px;
+
+header {
+    padding: 2rem;
+    background-image: radial-gradient(circle at center, #0ff, #001f2f);
 }
-.cta-button {
-  background-color: #00ffff;
-  padding: 12px 24px;
-  border-radius: 4px;
-  text-decoration: none;
-  color: #000;
-  font-weight: bold;
+
+.enter-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background: #00ffff;
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
 }
-.modules {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-  padding: 40px 20px;
-}
+
 .module {
-  border: 1px solid #0ff;
-  padding: 20px;
-  background: rgba(0, 0, 0, 0.6);
-  width: 300px;
-  border-radius: 10px;
+    padding: 2rem;
+    margin: 2rem auto;
+    border: 2px solid #00ffff;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
 }
+
+.module img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
 footer {
-  padding: 20px;
-  font-size: 14px;
-  opacity: 0.8;
+    padding: 1rem;
+    background: #001f2f;
+    color: #00ffff;
 }
