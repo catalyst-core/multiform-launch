@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+  color: cyan;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.button {
+  background: cyan;
+  color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.section {
+  border: 1px solid cyan;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
